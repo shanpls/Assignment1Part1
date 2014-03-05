@@ -1,0 +1,15 @@
+public class Company{
+  //Declare attributes
+  private String companyName;
+  protected String ceoName;
+  private int UID;
+  protected double stockPrice;
+  protected double Revenue;
+  public boolean invest;
+  protected int age;
+  private double OverallChange;
+  public static double savings;
+  public static String brokerName;
+  
+  
+}
