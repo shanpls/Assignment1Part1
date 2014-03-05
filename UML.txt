@@ -1,5 +1,5 @@
 Company
--------------------------------------------------------------------------------------------------
+__________________________________________________________________________________________________________________________
 -companyName: String
 #ceoName: String
 -UID: int
@@ -10,8 +10,10 @@ Company
 #Age:  int
 -OverallChange: double
 +savings: double
+----------------
 +username: string
--------------------------------------------------------------------------------------------------
+-----------------
+__________________________________________________________________________________________________________________________
 Company(N: String, CEO: String, ID: int, sPrice: double, Rev: double, Prof: double, Inv: boolean, a: int, ovChange: double)
 Company(N: String, CEO: String, ID: int)
 +getInfo (): String
@@ -21,4 +23,6 @@ Company(N: String, CEO: String, ID: int)
 +calculateExp ():double
 +updateInv(): void
 +displayUser():String
+---------------------
 +calcAmount(double, double):int
+--------------------------------
