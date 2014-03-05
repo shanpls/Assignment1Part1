@@ -1,7 +1,5 @@
-Company Name,	  	CEO Name,   Unique ID,	Stock Price,  Revenue,	    Profits,    	 Investment, 	 Age of Company,                              
-Asha,		          Loo, 		    13337,		  87.00,		    800000.00,	  54765.00,	     True,		     10,		
-Gun Safety,		    John, 		  42424,		  75.00,		    1234567.00,	  47552.00,	     True,		     2,
-Eye of a Needle,	Chris, 		  69696,		  45.00,		    2314150.00,	  34452.00,	     True,		     5,
-Goddamnit,		    Paul, 		  12345,		  79.00,		    -347325.00,	  -89353431.00,  False,		     20,
-
-
+Company Name,		CEO Name,	Unique ID,	Stock Price,	Revenue,	Profits,	Investment, 	Age of Company,                              
+Asha,			Loo, 		13337,		87.00,		800000.00,	54765.00,	True,		10,		
+Gun Safety,		John, 		42424,		75.00,		1234567.00,	47552.00,	True,		2,
+Eye of a Needle,	Chris, 		69696,		45.00,		2314150.00,	34452.00,	True,		5,
+Goddamnit,		Paul, 		12345,		79.00,		-347325.00,	-89353431.00,	False,		20,
