@@ -1,0 +1,24 @@
+Company
+-------------------------------------------------------------------------------------------------
+-companyName: String
+#ceoName: String
+-UID: int
+#stockPrice: double
+#Revenue: double
+#Profits: double
++Invest: boolean
+#Age:  int
+-OverallChange: double
++savings: double
++username: string
+-------------------------------------------------------------------------------------------------
+Company(N: String, CEO: String, ID: int, sPrice: double, Rev: double, Prof: double, Inv: boolean, a: int, ovChange: double)
+Company(N: String, CEO: String, ID: int)
++getInfo (): String
++changeSP(double): boolean
++addRevenue(double): void
++addProfits(double): void
++calculateExp ():double
++updateInv(): void
++displayUser():String
++calcAmount(double, double):int
