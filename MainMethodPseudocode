@@ -1,0 +1,18 @@
+Import Statement(s)
+Class Declaration
+  Main method statement (throw IO exception)
+  Declare first buffered reader object to read from file
+  Declare second buffered reader object to read from file
+  
+  while loop uses first reader to count how many lines there are
+  
+  declare Company array, size is the same number of lines counted in the while loop
+  declare a string array
+  
+  for loop goes through each array object
+    Give values to string array by using the other buffered reader to read in the next data line, then splitting the line
+    In each array object, declare a new Company object, using the items in the string array as parameters
+  end for loop
+  
+  End main method
+End class
