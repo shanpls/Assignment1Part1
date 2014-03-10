@@ -1,0 +1,149 @@
+public class Company{
+  
+  //Declare attributes
+  private String companyName;
+  private int UID;
+  protected double stockPrice;
+  protected double revenue;
+  protected double profits; 
+  public boolean invest;
+  protected int age;
+  private double overallChange;
+  public static double savings;
+  public static String brokerName;
+  
+  public Company (String cN, int UID, double sPrice, double rev, double prof, boolean inv, int age, double oC, double sav, string bN){
+    companyName = cN;
+    stockPrice = sPrice;
+    revenue = rev;
+    profits = prof;
+    invest = inv;
+    OverallChange = oC;
+    savings = sav;
+    brokenName = bN;
+    
+  }
+  
+  /**
+   * Method that returns Company Name
+   * @param none
+   * @return Company Name
+   */
+  public String getCN(){
+    return companyName;
+  }
+  
+  
+  /**
+   * Method that returns True/False for change in Stock Price
+   * @param change The change in stock price
+   * @return True if possible, otherwise false
+   */
+  public boolean changeSP (double change){
+    stockPrice = stockPrice + change;
+    if (stockPrice => 0){
+      return true;
+    }else{
+      return false;
+    }
+  }    
+  
+  
+  /**
+   * Method that calculates new revenue
+   * @param change The change in revenue
+   * @return none
+   */
+  public double changeRev (double change){
+    revenue = revenue + change;
+  }
+  
+  
+  /**
+   * Method that calculates change in profits
+   * @param change The change in profits
+   * @return none
+   */
+  public double changeProf (double change){
+    profits = profits + change;  
+  }
+  
+  
+  /**
+   * Method that calculates expenses
+   * @param none
+   * @return The expenses
+   */
+  public double calcExp{
+  double expenses = revenue - profits;
+  return expenses;
+  }
+  
+  
+  /**
+   * Method that updates investment choice
+   * @param none
+   * @return True if profits > 0, otherwise false
+   */
+  public boolean updateInv(){
+    if (profits > 0){
+      invest == true;
+    }else{
+      invest == false;
+    }
+  }
+  
+  
+  /**
+   * Method that displays info
+   * @param none
+   * @return Company info
+   */
+  public String getInfo(){
+    System.out.println("Company Name: " + companyName + \n
+                       "Stock Price: " + stockPrice + \n
+                       "Revenue: " + revenue + \n
+                       "Profits: " + profits);
+  }
+  
+                      
+  
+  /** Calculates the amount of stocks you can buy
+    * @param price A stock price
+    * @return The amount of stocks that can be purchased
+    */
+  public int calcAmount (doule price){
+    double x = savings/price;
+    int y = (int)x;
+    return y;
+  }
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
