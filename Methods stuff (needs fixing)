@@ -100,10 +100,16 @@ public class Company{
    * @return Company info
    */
   public String getInfo(){
-    System.out.println("Company Name: " + companyName + \n
-                       "Stock Price: " + stockPrice + \n
-                       "Revenue: " + revenue + \n
-                       "Profits: " + profits);
+    System.out.println("Company Name: " + companyName);
+    System.out.println("Unique ID: " + UID);
+    System.out.println("Stock Price: " + stockPrice);
+    System.out.println("Revenue: " + revenue);
+    System.out.println("Profits: " + profits);
+    System.out.println("Investment " + invest);
+    System.out.println("Age; " + age);
+    System.out.println("Overall Change: " + overallChange);
+    System.out.println("Savings: " + savings);
+    System.out.println("Broker Name:  " + brokerName);
   }
   
                       
