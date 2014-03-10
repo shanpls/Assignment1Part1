@@ -21,8 +21,6 @@ Company(N: String, CEO: String, ID: int)
 +addRevenue(double): void
 +addProfits(double): void
 +calculateExp ():double
-+updateInv(): void
-+displayUser():String
----------------------
++updateInv(): boolean
 +calcAmount(double, double):int
 --------------------------------
