@@ -1,0 +1,29 @@
+Import Statement
+Class declaration
+  Create InputStreamReader object to read from System.in
+  Create two BufferedReader objects, initialize with InputStreamReader object
+  
+  Initialize a variable to count how many rows are in the file
+  
+  Try{
+    Make two BufferedReader objects read from file
+    Use while loop, a BufferedReader object, and a variable to count number of rows
+  } Catch{
+    Error message
+    Close program
+  }
+    
+  Create company array, number of rows as array size, minus 1 (account for unused first row)
+  
+  Use buffered reader to skip first row
+  
+  For loop goes through each company array space
+    try{
+      Create string array to save the data read in the next line once it is split
+      Use data in string array to create Company object
+    }catch {
+      Error message
+      Create placeholder company object
+    }
+  End for loop
+End class
