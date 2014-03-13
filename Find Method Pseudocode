@@ -1,0 +1,16 @@
+Class declaration
+
+  Declare method (parameters are a company array and the desired id, an int)(return an int)
+
+    Declare and initialize value to be returned (-1)
+    
+    For loop looks through each object in array
+      For each iteration, use getID method for the array object and save the returned id in a variable
+      Use if statement to compare desired id to id obtained in the iteration. 
+        If they match, return the location of the Company array object
+        If they don't, the loop moves onto the next iteration
+    End for loop
+    
+    If a match is not found, -1 is returned
+  End of find method
+End of class
